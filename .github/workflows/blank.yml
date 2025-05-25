@@ -26,3 +26,12 @@ jobs:
           
           # 添加所有新文件/修改（可根据路径调整）
           git add .
+
+          # 检查是否有变更需要提交
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Automated commit: Add generated files"
+            git push origin main
+            echo "Changes pushed."
+          else
+            echo "No changes to commit."
+          fi
