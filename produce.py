@@ -187,4 +187,4 @@ with open("unroutes4.py", "w") as f:
 # with open("routes6.conf", "w") as f:
 #     dump_bird(root_v6, f)
 
-[Path(f).unlink(missing_ok=True) for f in ["delegated-apnic-latest", "china_ip_list.txt"]]
+# [Path(f).unlink(missing_ok=True) for f in ["delegated-apnic-latest", "china_ip_list.txt"]]
