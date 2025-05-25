@@ -16,8 +16,8 @@ jobs:
 
       # - run: pip install requests
       - run: |
-              python produce.py
-              ls -la
+          python produce.py
+          ls -la
 
       - name: Commit and Push
         run: |
