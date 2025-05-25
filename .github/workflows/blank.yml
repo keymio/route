@@ -1,4 +1,4 @@
-name: Your Github Workflow name
+name: route_CI
 on:
   workflow_dispatch:
   schedule:
