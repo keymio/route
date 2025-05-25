@@ -14,4 +14,4 @@ jobs:
         with:
           python-version: '3.8.0'
       # - run: pip install requests
-      - run: python src/first_python_script.py
+      - run: python src/produce.py
